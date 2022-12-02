@@ -69,7 +69,7 @@ class HiLoCardGame : AppCompatActivity() {
     private fun win(){
         if(deck.deck.size.equals(1)){
             val toast = Toast.makeText(this,"Woohoo, you won and can play another round and got 3 extra lives",
-            Toast.LENGTH_SHORT)
+            Toast.LENGTH_LONG)
             toast.show()
             lives+=2
             round++
@@ -84,7 +84,7 @@ class HiLoCardGame : AppCompatActivity() {
 
         if(lives == 0){
             val toast = Toast.makeText(this, "Too bad, you lost, but you can start over en try again, let me help you.",
-                Toast.LENGTH_SHORT
+                Toast.LENGTH_LONG
                 )
             toast.show()
             lose()

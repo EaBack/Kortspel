@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6600CC"
     tools:context=".HiLoCardGame">
 
     <Button
@@ -12,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="600dp"
         android:layout_marginEnd="50dp"
+        android:background="@drawable/buttonhigher"
         android:text="@string/higher"
+        android:textColor="#FFE81A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,15 +26,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="600dp"
+        android:background="@drawable/buttonhigher"
         android:text="@string/lower"
+        android:textColor="#FFE81A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/cardDeck"
-        android:layout_width="205dp"
-        android:layout_height="326dp"
+        android:layout_width="303dp"
+        android:layout_height="483dp"
         android:contentDescription="Deck"
         android:contextClickable="false"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,25 +49,31 @@
         android:id="@+id/lives"
         android:layout_width="57dp"
         android:layout_height="31dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/buttonhigher"
+        android:textColor="#FFE81A"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="30dp"
+        android:layout_width="63dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/buttonhigher"
+        android:textColor="#FFE81A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/round"
-        android:layout_width="84dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/buttonhigher"
+        android:textColor="#FFE81A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
