@@ -1,4 +1,3 @@
 package com.example.korrtspel
 
-class Card {
-}
+class Card (var value : Int, var suit: String, var theme : Int){}

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Korrtspel</string>
+    <string name="greeting">Go Play HiLo, the card game! In this game you are going to guess if the next card is higher in value or lower. If you guess right, you score. Try to max you highscore. Press start to play.</string>
+    <string name="start">Start</string>
+    <string name="higher">Higher</string>
+    <string name="lower">Lower</string>
 </resources>
